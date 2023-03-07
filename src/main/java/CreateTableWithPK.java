@@ -58,6 +58,8 @@ public class CreateTableWithPK {
          * NOTE: The "id" column is what we are going to define as the primary key.
          */
         String sql = FileUtil.parseSQLFile("problem1.sql");
+        //USE table song,
+        //id  PRIMARY KEY,
 
         try {
             Connection connection = ConnectionUtil.getConnection();
